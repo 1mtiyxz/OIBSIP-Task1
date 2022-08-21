@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" placeholder="0" id="output" />
+        <button class="action" onclick="clr()">C</button> 
+        <button class="action" onclick="del()">DEL</button>
+        <button class="functions" onclick="display('%')">%</button>
+        <button class="functions" onclick="display('/')">/</button>
+        <button class="numbers" onclick="display('7')">7</button>
+        <button class="numbers" onclick="display('8')">8</button>
+        <button class="numbers" onclick="display('9')">9</button>
+        <button class="functions" onclick="display('*')">*</button>
+        <button class="numbers" onclick="display('4')">4</button>
+        <button class="numbers" onclick="display('5')">5</button>
+        <button class="numbers" onclick="display('6')">6</button>
+        <button class="functions" onclick="display('-')">-</button>
+        <button class="numbers" onclick="display('1')">1</button>
+        <button class="numbers" onclick="display('2')">2</button>
+        <button class="numbers" onclick="display('3')">3</button>
+        <button class="functions" onclick="display('+')">+</button>
+        <button class="functions" onclick="display('.')">.</button>
+        <button class="numbers" onclick="display('0')">0</button>
+        <button class="action" class="equalbtn" onclick="Calculate()">=</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
